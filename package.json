@@ -1,6 +1,7 @@
 {
   "name": "golf-gps",
   "version": "0.1.0",
+  "homepage": "https://j-chimienti.github.io/golf-gps",
   "private": true,
   "devDependencies": {
     "gh-pages": "^0.12.0",
@@ -15,7 +16,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "npm run build&&gh-pages -d build"
-  },
-  "homepage": "https://bryancboyd.github.io/golf-gps"
+    "deploy": "npm run build && gh-pages -d build"
+  }
 }
