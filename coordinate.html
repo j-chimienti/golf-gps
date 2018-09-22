@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>coordinate</title>
+    <style>
+        body {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<img src="images/harding-hole3.png"/>
+
+<br/>
+<p id="coordinates">
+
+</p>
+
+<script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+<script>
+    $(function(){
+        $(document).mousemove(function(e){
+            $('#coordinates').html('x: ' + e.pageX + ' y : ' + e.pageY);
+        });
+    })
+</script>
+
+</body>
+</html>
